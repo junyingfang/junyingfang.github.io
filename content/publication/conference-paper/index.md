@@ -1,19 +1,25 @@
 ---
-title: 'An example conference paper'
+title: 'Thunderstorm nowcasting with diffusion models'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+  - Kuai Dai
+  - Xutao Li
   - admin
-  - Robert Ford
+  - Yunming Ye
+  - Demin Yu
+  - Di Xian
+  - Danyu Qin
+
 
 # Author notes (optional)
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2024-07-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -34,7 +40,7 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-  - Large Language Models
+  - AI for science
 
 # Display this page in the Featured widget?
 featured: true
@@ -56,7 +62,7 @@ url_video: 'https://youtube.com'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: 'Image credit: ChatGPT'
   focal_point: ''
   preview_only: false
 

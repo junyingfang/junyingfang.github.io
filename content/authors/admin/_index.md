@@ -181,4 +181,4 @@ awards:
 
 ## About Me
 
-Junying Fang is a researcher of artificial intelligence at the Institute of Tropical and Marine Meteorology, China Meteorological Administration. His research interests include extreme weather, AI for science, and interdisciplinary research.
+Junying Fang is a researcher at the Institute of Tropical and Marine Meteorology, China Meteorological Administration.
