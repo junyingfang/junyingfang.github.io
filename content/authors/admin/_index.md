@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 方俊颖
+title: Junying Fang
 
 # Name pronunciation (optional)
 name_pronunciation: 
@@ -24,7 +24,7 @@ role: Assistant Research Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Institute of Tropical and Marine Meteorology, China Meteorological Administration
+  - name: ITMM, CMA
     url: 
 
 # Social network links
@@ -33,25 +33,25 @@ profiles:
   - icon: at-symbol
     url: 'mailto:junyingfang1@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+#  - icon: brands/x
+#    url: https://twitter.com/GetResearchDev
+#  - icon: brands/linkedin
+#    url: https://www.linkedin.com/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=rjLUuboAAAAJ&hl=en&oi=ao
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-8491-6678
   - icon: brands/github
     url: https://github.com/junyingfang
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Extreme weather
+  - AI for science
+  - Interdisciplinary research
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
+  - area: PhD Meteorology
+    institution: Sun Yat-sen University
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
@@ -59,19 +59,19 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+  # - area: MEng Artificial Intelligence
+  #   institution: Massachusetts Institute of Technology
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  #     Courses included:
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: B.S. Atmospheric Sciences
+    institution: Nanjing University of Information Science & Technology
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
@@ -181,4 +181,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Junying Fang is a researcher of artificial intelligence at the Institute of Tropical and Marine Meteorology, China Meteorological Administration. His research interests include extreme weather, AI for science, and interdisciplinary research.
