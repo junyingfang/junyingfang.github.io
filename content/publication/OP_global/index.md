@@ -30,7 +30,7 @@ featured: true
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://www.nature.com/articles/s41467-022-34842-0
+url_pdf: 
 url_code: ''
 url_dataset: ''
 url_poster: ''

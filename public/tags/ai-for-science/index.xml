@@ -5,12 +5,33 @@
     <link>http://localhost:1313/tags/ai-for-science/</link>
       <atom:link href="http://localhost:1313/tags/ai-for-science/index.xml" rel="self" type="application/rss+xml" />
     <description>AI for Science</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu0587abf81a1c8ffcefc8b63c1e9cd3eb_129373_512x512_fill_lanczos_center_3.png</url>
       <title>AI for Science</title>
       <link>http://localhost:1313/tags/ai-for-science/</link>
     </image>
+    
+    <item>
+      <title>AI Geoscientist</title>
+      <link>http://localhost:1313/project/ai-geoscientist/</link>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/ai-geoscientist/</guid>
+      <description>&lt;p&gt;AI for Geoscience discovery, design and modeling.&lt;/p&gt;
+&lt;h3 id=&#34;extract-research-paradigms-of-geoscience&#34;&gt;Extract research paradigms of geoscience.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Use AtmosCorpus and AtmosLLM.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;human-geoscientist-modeling&#34;&gt;Human geoscientist modeling.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Use AtmosCorpus and AtmosLLM.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;rediscovery-of-old-geoscience&#34;&gt;Rediscovery of old geoscience.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Start from typical theories and equation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;discovery-of-new-geoscience&#34;&gt;Discovery of new geoscience.&lt;/h3&gt;</description>
+    </item>
     
     <item>
       <title>Four-hour thunderstorm nowcasting using deep diffusion models of satellite</title>

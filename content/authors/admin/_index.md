@@ -24,7 +24,7 @@ role: Assistant Research Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: ITMM, CMA
+  - name: ITMM
     url: 
 
 # Social network links
@@ -45,9 +45,9 @@ profiles:
     url: https://github.com/junyingfang
 
 interests:
-  - Extreme weather
+  - Earth science
   - AI for science
-  - Interdisciplinary research
+  - Complex system
 
 education:
   - area: PhD Meteorology
@@ -118,7 +118,7 @@ skills:
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: generative AI
         description: ''
         percent: 40
         icon: circle-stack
@@ -126,7 +126,7 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Running
         description: ''
         percent: 60
         icon: person-simple-walk
@@ -141,11 +141,11 @@ skills:
 
 languages:
   - name: English
-    percent: 100
+    percent: 80
   - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    percent: 100
+  - name: Cantonese
+    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -181,4 +181,4 @@ awards:
 
 ## About Me
 
-Junying Fang is a researcher at the Institute of Tropical and Marine Meteorology, China Meteorological Administration.
+Junying Fang is a researcher at the Institute of Tropical and Marine Meteorology, China Meteorological Administration. INTJ.

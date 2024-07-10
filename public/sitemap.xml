@@ -2,12 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/event/example/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/complex-system/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/event/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/project/gaia-earth/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/project/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/publication_types/article/</loc>
@@ -30,20 +38,28 @@
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/ai-for-science/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/project/ai-geoscientist/</loc>
+    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/ai-for-science/</loc>
+    <loc>http://localhost:1313/publication/ddms/</loc>
     <lastmod>2024-04-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/publication/ddms/</loc>
-    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/project/atmosllm/</loc>
+    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/large-language-model/</loc>
+    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/post/get-started/</loc>
@@ -66,35 +82,7 @@
     <lastmod>2023-10-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/project/pandas/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/large-language-model/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/project/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/project/pytorch/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/project/scikit/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>http://localhost:1313/tags/second-brain/</loc>
-    <lastmod>2023-10-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/wowchemy/</loc>
     <lastmod>2023-10-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -103,6 +91,10 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/post/data-visualization/</loc>
+    <lastmod>2023-10-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/hugo/</loc>
     <lastmod>2023-10-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -142,6 +134,14 @@
     <lastmod>2023-10-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>http://localhost:1313/event/</loc>
+    <lastmod>2023-08-23T16:50:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/event/frontiers/</loc>
+    <lastmod>2023-08-23T16:50:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:1313/publication/op_global/</loc>
     <lastmod>2022-12-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -152,6 +152,10 @@
   </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/event/ams/</loc>
+    <lastmod>2021-01-15T16:50:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

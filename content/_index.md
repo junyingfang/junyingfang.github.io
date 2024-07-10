@@ -17,14 +17,16 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: https://raw.githubusercontent.com/junyingfang/junyingfang.github.io/main/Junying_CV_2024.pdf
     design:
-      css_class: dark
+      css_class: white
       background:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: background.png
+
+          
           filters:
             brightness: 1.0
           size: cover
@@ -32,14 +34,12 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        I apply a range of qualitative and quantitative methods to comprehensively investigate the potential of AI automated scientific discovery in Earth science.
         
-        Please reach out to collaborate 😃
+        Please reach out to collaborate 👋🏻
     design:
       columns: '1'
   - block: collection
@@ -66,17 +66,17 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Recent Talks
       filters:
         folders:
           - event
     design:
       view: article-grid
-      columns: 1
+      columns: 2
   - block: collection
     id: news
     content:
-      title: Recent News
+      title: News
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...

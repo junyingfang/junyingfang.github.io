@@ -5,7 +5,7 @@
     <link>http://localhost:1313/project/</link>
       <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu0587abf81a1c8ffcefc8b63c1e9cd3eb_129373_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -13,27 +13,65 @@
     </image>
     
     <item>
+      <title>Gaia Earth</title>
+      <link>http://localhost:1313/project/gaia-earth/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/gaia-earth/</guid>
+      <description>&lt;p&gt;self-organizing&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>AI Geoscientist</title>
+      <link>http://localhost:1313/project/ai-geoscientist/</link>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/ai-geoscientist/</guid>
+      <description>&lt;p&gt;AI for Geoscience discovery, design and modeling.&lt;/p&gt;
+&lt;h3 id=&#34;extract-research-paradigms-of-geoscience&#34;&gt;Extract research paradigms of geoscience.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Use AtmosCorpus and AtmosLLM.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;human-geoscientist-modeling&#34;&gt;Human geoscientist modeling.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Use AtmosCorpus and AtmosLLM.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;rediscovery-of-old-geoscience&#34;&gt;Rediscovery of old geoscience.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Start from typical theories and equation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;discovery-of-new-geoscience&#34;&gt;Discovery of new geoscience.&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
       <title>AtmosLLM</title>
-      <link>http://localhost:1313/project/pandas/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pandas/</guid>
-      <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>PyTorch</title>
-      <link>http://localhost:1313/project/pytorch/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pytorch/</guid>
-      <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>scikit-learn</title>
-      <link>http://localhost:1313/project/scikit/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/scikit/</guid>
-      <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
+      <link>http://localhost:1313/project/atmosllm/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/atmosllm/</guid>
+      <description>&lt;p&gt;Large language foundation model for atmospheric science.&lt;/p&gt;
+&lt;h3 id=&#34;atmosbench&#34;&gt;AtmosBench&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Constructing a Benchmark for all LLMs to evaluate their professional knowledge of atmospheric science.&lt;/li&gt;
+&lt;li&gt;Including research knowledge and course examination.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;atmoscorpus&#34;&gt;AtmosCorpus&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;collect papers, wiki, books, github.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;atmosllm&#34;&gt;AtmosLLM&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Train an open-source LLM or fine-tune GPT.&lt;/li&gt;
+&lt;li&gt;Explore how AtmosLLM promotes interdisciplinary research and education.&lt;/li&gt;
+&lt;li&gt;Analyse texts and figures in AtmosCorpus for certain topic.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--「齐天」AnyAtmos--&gt;
+&lt;h3 id=&#34;atmosagent&#34;&gt;AtmosAgent&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Do atmospheric research tasks, such as performing sensitivity experiment with WRF and CESM.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;atmosagents-lab&#34;&gt;AtmosAgents Lab&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;multi-Agents collaborate to achieve one complex goal.&lt;/li&gt;
+&lt;li&gt;Be like &lt;a href=&#34;https://github.com/joonspk-research/generative_agents&#34;&gt;Generative Agents by Stanford&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
   </channel>

@@ -1,6 +1,5 @@
 ---
-title: "Could Developing Frontal Rainfall Influence
-Warm-sector Rainfall?"
+title: "Could developing frontal rainfall influence warm-sector rainfall?"
 authors:
 - Hongpei Yang
 - Yu Du
@@ -23,10 +22,11 @@ publication_types: ["Article"]
 publication: "Geophysical Research Letters"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Forecasting warm-sector rainfall (WR) remains a major challenge, primarily due to weak synoptic forcing. Through cloud-permitting numerical simulations, in addition to direct triggering mechanism from low-level jets, we identified the important role of gravity waves in a heavy WR event in South China via convective preconditioning. The preconditioning manifests as mid-level moistening and destabilization with wave-like variations. This process is driven by fast-propagating (~24 m s-1) n=2 waves, associated with lower-tropospheric ascents and upper-tropospheric descents. Waves are generated during the evolution of northern frontal rainfall (FR). As FR intensifies, surges in low-level diabatic cooling mainly resulting from microphysical processes, trigger n=2 waves, which further precondition the environment along their path. In contrast, a sensitivity experiment involving stably developing FR fails to reproduce the preconditioning process by waves and the subsequent occurrence of WR. Overall, our study illuminates a new pathway through which FR significantly influences WR via gravity waves.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: The initiation of warm-sector extreme rainfall at the coast is related to the evolution of northern frontal rainfall that located 300 km away. 
+
 
 tags:
 - Extreme weather
@@ -50,6 +50,7 @@ image:
   caption: ''
   focal_point: ""
   preview_only: false
+  
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

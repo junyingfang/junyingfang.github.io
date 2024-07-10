@@ -30,12 +30,12 @@ publication_types: ['Article']
 
 # Publication name and optional abbreviated publication name.
 publication: arXiv
-publication_short: arXiv
+publication_short: 
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Convection (thunderstorm) develops rapidly within hours and is highly destructive, posing a significant challenge for nowcasting and resulting in substantial losses to nature and society. After the emergence of artificial intelligence (AI)-based methods, convection nowcasting has experienced rapid advancements, with its performance surpassing that of physics-based numerical weather prediction and other conventional approaches. However, the lead time and coverage of it still leave much to be desired and hardly meet the needs of disaster emergency response. Here, we propose deep diffusion models of satellite (DDMS) to establish an AI-based convection nowcasting system. On one hand, it employs diffusion processes to effectively simulate complicated spatiotemporal evolution patterns of convective clouds, significantly improving the forecast lead time. On the other hand, it utilizes geostationary satellite brightness temperature data, thereby achieving planetary-scale forecast coverage. During long-term tests and objective validation based on the FengYun-4A satellite, our system achieves, for the first time, effective convection nowcasting up to 4 hours, with broad coverage (about 20,000,000 km2), remarkable accuracy, and high resolution (15 minutes; 4 km). Its performance reaches a new height in convection nowcasting compared to the existing models. In terms of application, our system operates efficiently (forecasting 4 hours of convection in 8 minutes), and is highly transferable with the potential to collaborate with multiple satellites for global convection nowcasting. Furthermore, our results highlight the remarkable capabilities of diffusion models in convective clouds forecasting, as well as the significant value of geostationary satellite data when empowered by AI technologies.  
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Effective convection nowcasting up to 4 hours, with broad coverage (about 20,000,000 km²), remarkable accuracy, and high resolution (15 minutes; 4 km). 
 
 tags:
   - AI for science
