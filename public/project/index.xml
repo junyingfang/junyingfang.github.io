@@ -13,32 +13,38 @@
     </image>
     
     <item>
-      <title>Gaia Earth</title>
+      <title>WORLD</title>
       <link>http://localhost:1313/project/gaia-earth/</link>
       <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/gaia-earth/</guid>
-      <description>&lt;p&gt;self-organizing&lt;/p&gt;</description>
+      <description>&lt;p&gt;A self-organizing system perspective of nature and society.&lt;/p&gt;
+&lt;!--Gaia Earth--&gt;
+&lt;ul&gt;
+&lt;li&gt;Twin earth.&lt;/li&gt;
+&lt;li&gt;Emerge of weather and climate extreme.&lt;/li&gt;
+&lt;li&gt;Self-organizing and critical state of weather, and critical point of climate change.&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
-      <title>AI Geoscientist</title>
-      <link>http://localhost:1313/project/ai-geoscientist/</link>
+      <title>AI Meteorologist</title>
+      <link>http://localhost:1313/project/ai-meteorologist/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/ai-geoscientist/</guid>
-      <description>&lt;p&gt;AI for Geoscience discovery, design and modeling.&lt;/p&gt;
-&lt;h3 id=&#34;extract-research-paradigms-of-geoscience&#34;&gt;Extract research paradigms of geoscience.&lt;/h3&gt;
+      <guid>http://localhost:1313/project/ai-meteorologist/</guid>
+      <description>&lt;p&gt;Automated AI for meteorology discovery, design and modeling.&lt;/p&gt;
+&lt;h3 id=&#34;paradigms-of-meteorology-research&#34;&gt;Paradigms of meteorology research.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Extract with AtmosCorpus and AtmosLLM.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;human-meteorologist-modeling&#34;&gt;Human Meteorologist modeling.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Use AtmosCorpus and AtmosLLM.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;human-geoscientist-modeling&#34;&gt;Human geoscientist modeling.&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Use AtmosCorpus and AtmosLLM.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;rediscovery-of-old-geoscience&#34;&gt;Rediscovery of old geoscience.&lt;/h3&gt;
+&lt;h3 id=&#34;rediscovery-of-meteorology&#34;&gt;Rediscovery of meteorology.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Start from typical theories and equation.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;discovery-of-new-geoscience&#34;&gt;Discovery of new geoscience.&lt;/h3&gt;</description>
+&lt;h3 id=&#34;discovery-of-new-meteorology&#34;&gt;Discovery of new meteorology.&lt;/h3&gt;</description>
     </item>
     
     <item>
@@ -46,10 +52,10 @@
       <link>http://localhost:1313/project/atmosllm/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/atmosllm/</guid>
-      <description>&lt;p&gt;Large language foundation model for atmospheric science.&lt;/p&gt;
+      <description>&lt;p&gt;Large language models for atmospheric science.&lt;/p&gt;
 &lt;h3 id=&#34;atmosbench&#34;&gt;AtmosBench&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Constructing a Benchmark for all LLMs to evaluate their professional knowledge of atmospheric science.&lt;/li&gt;
+&lt;li&gt;Constructing a benchmark for all LLMs to evaluate their professional knowledge of atmospheric science.&lt;/li&gt;
 &lt;li&gt;Including research knowledge and course examination.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;atmoscorpus&#34;&gt;AtmosCorpus&lt;/h3&gt;
@@ -67,10 +73,12 @@
 &lt;ul&gt;
 &lt;li&gt;Do atmospheric research tasks, such as performing sensitivity experiment with WRF and CESM.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;!--Atmospheric Intelligence--&gt;
 &lt;h3 id=&#34;atmosagents-lab&#34;&gt;AtmosAgents Lab&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;multi-Agents collaborate to achieve one complex goal.&lt;/li&gt;
-&lt;li&gt;Be like &lt;a href=&#34;https://github.com/joonspk-research/generative_agents&#34;&gt;Generative Agents by Stanford&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Be like &lt;a href=&#34;https://arxiv.org/abs/2406.06769&#34;&gt;DISCOVERYWORLD&lt;/a&gt;.
+&lt;img src=&#34;image.png&#34; alt=&#34; &#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     

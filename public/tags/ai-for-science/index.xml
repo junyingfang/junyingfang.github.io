@@ -13,24 +13,24 @@
     </image>
     
     <item>
-      <title>AI Geoscientist</title>
-      <link>http://localhost:1313/project/ai-geoscientist/</link>
+      <title>AI Meteorologist</title>
+      <link>http://localhost:1313/project/ai-meteorologist/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/ai-geoscientist/</guid>
-      <description>&lt;p&gt;AI for Geoscience discovery, design and modeling.&lt;/p&gt;
-&lt;h3 id=&#34;extract-research-paradigms-of-geoscience&#34;&gt;Extract research paradigms of geoscience.&lt;/h3&gt;
+      <guid>http://localhost:1313/project/ai-meteorologist/</guid>
+      <description>&lt;p&gt;Automated AI for meteorology discovery, design and modeling.&lt;/p&gt;
+&lt;h3 id=&#34;paradigms-of-meteorology-research&#34;&gt;Paradigms of meteorology research.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Extract with AtmosCorpus and AtmosLLM.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;human-meteorologist-modeling&#34;&gt;Human Meteorologist modeling.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Use AtmosCorpus and AtmosLLM.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;human-geoscientist-modeling&#34;&gt;Human geoscientist modeling.&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Use AtmosCorpus and AtmosLLM.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;rediscovery-of-old-geoscience&#34;&gt;Rediscovery of old geoscience.&lt;/h3&gt;
+&lt;h3 id=&#34;rediscovery-of-meteorology&#34;&gt;Rediscovery of meteorology.&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Start from typical theories and equation.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;discovery-of-new-geoscience&#34;&gt;Discovery of new geoscience.&lt;/h3&gt;</description>
+&lt;h3 id=&#34;discovery-of-new-meteorology&#34;&gt;Discovery of new meteorology.&lt;/h3&gt;</description>
     </item>
     
     <item>

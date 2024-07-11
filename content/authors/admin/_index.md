@@ -45,7 +45,7 @@ profiles:
     url: https://github.com/junyingfang
 
 interests:
-  - Earth science
+  - Weather and climate
   - AI for science
   - Complex system
 
@@ -181,4 +181,4 @@ awards:
 
 ## About Me
 
-Junying Fang is a researcher at the Institute of Tropical and Marine Meteorology, China Meteorological Administration. INTJ.
+Junying Fang is a researcher at the Institute of Tropical and Marine Meteorology, China Meteorological Administration.

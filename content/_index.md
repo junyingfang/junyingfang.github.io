@@ -19,17 +19,17 @@ sections:
         text: Download CV
         url: https://raw.githubusercontent.com/junyingfang/junyingfang.github.io/main/Junying_CV_2024.pdf
     design:
-      css_class: white
+      css_class: black #white black
       background:
-        color: black
+        color: white #white black
         image:
           # Add your image background to `assets/media/`.
-          filename: background.png
+          filename: background.jpg
 
           
           filters:
             brightness: 1.0
-          size: cover
+          size: cover #cover auto contain
           position: center
           parallax: false
   - block: markdown
