@@ -10,6 +10,9 @@ Automated AI for meteorology discovery, design and modeling.
 
 <!--more-->
 
+
+Multi-discipline involved: AI, meteorology, science of science.
+
 ### Paradigms of meteorology research.
 - Extract with AtmosCorpus and AtmosLLM.
 

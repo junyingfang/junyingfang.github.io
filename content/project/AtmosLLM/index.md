@@ -9,6 +9,9 @@ tags:
 Large language models for atmospheric science.  
 
 <!--more-->
+
+Multi-discipline involved: AI, atmospheric science.
+
 ### AtmosBench
 - Constructing a benchmark for all LLMs to evaluate their professional knowledge of atmospheric science.
 - Including research knowledge and course examination.

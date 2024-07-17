@@ -41,8 +41,8 @@ profiles:
     url: https://scholar.google.com/citations?user=rjLUuboAAAAJ&hl=en&oi=ao
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-8491-6678
-  - icon: brands/github
-    url: https://github.com/junyingfang
+  # - icon: brands/github
+  #   url: https://github.com/junyingfang
 
 interests:
   - Weather and climate
