@@ -181,4 +181,4 @@ awards:
 
 ## About Me
 
-Junying Fang is a researcher at the Institute of Tropical and Marine Meteorology, China Meteorological Administration.
+Junying Fang is a researcher at the Institute of Tropical and Marine Meteorology, CMA.
