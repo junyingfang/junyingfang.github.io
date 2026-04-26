@@ -1,5 +1,5 @@
 ---
-title: 'Four-hour thunderstorm nowcasting using deep diffusion models of satellite'
+title: 'Four-hour thunderstorm nowcasting using a deep diffusion model for satellite data'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
