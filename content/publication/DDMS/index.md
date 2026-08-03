@@ -10,8 +10,10 @@ authors:
   - admin
   - Yunming Ye
   - Demin Yu
+  - Hui Su
   - Di Xian
   - Danyu Qin
+  - Jingsong Wang
 
 
 # Author notes (optional)
@@ -72,7 +74,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: ChatGPT'
+  caption: ''
   focal_point: ''
   preview_only: false
 

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Junying Fang</title>
-    <link>http://localhost:54530/</link>
-      <atom:link href="http://localhost:54530/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>Junying Fang</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:54530/media/icon_hu0587abf81a1c8ffcefc8b63c1e9cd3eb_129373_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/media/icon_hu0587abf81a1c8ffcefc8b63c1e9cd3eb_129373_512x512_fill_lanczos_center_3.png</url>
       <title>Junying Fang</title>
-      <link>http://localhost:54530/</link>
+      <link>http://localhost:1313/</link>
     </image>
     
     <item>
       <title>A global survey of diurnal offshore propagation of rainfall</title>
-      <link>http://localhost:54530/publication/op_global/</link>
+      <link>http://localhost:1313/publication/op_global/</link>
       <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54530/publication/op_global/</guid>
+      <guid>http://localhost:1313/publication/op_global/</guid>
       <description>&lt;!-- 
 
 
@@ -58,9 +58,9 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
     
     <item>
       <title>Four-hour thunderstorm nowcasting using a deep diffusion model for satellite data</title>
-      <link>http://localhost:54530/publication/ddms/</link>
+      <link>http://localhost:1313/publication/ddms/</link>
       <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54530/publication/ddms/</guid>
+      <guid>http://localhost:1313/publication/ddms/</guid>
       <description>&lt;!-- 
 
 
@@ -99,9 +99,9 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
     
     <item>
       <title>Could developing frontal rainfall influence warm-sector rainfall?</title>
-      <link>http://localhost:54530/publication/fr2wr/</link>
+      <link>http://localhost:1313/publication/fr2wr/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54530/publication/fr2wr/</guid>
+      <guid>http://localhost:1313/publication/fr2wr/</guid>
       <description>&lt;!-- 
 
 
@@ -140,9 +140,9 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>http://localhost:54530/post/get-started/</link>
+      <link>http://localhost:1313/post/get-started/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54530/post/get-started/</guid>
+      <guid>http://localhost:1313/post/get-started/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
 
@@ -226,9 +226,9 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
     
     <item>
       <title>🧠 Sharpen your thinking with a second brain</title>
-      <link>http://localhost:54530/post/second-brain/</link>
+      <link>http://localhost:1313/post/second-brain/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54530/post/second-brain/</guid>
+      <guid>http://localhost:1313/post/second-brain/</guid>
       <description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
 &lt;p&gt;Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
 &lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
@@ -330,9 +330,9 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
     
     <item>
       <title>📈 Communicate your results effectively with the best data visualizations</title>
-      <link>http://localhost:54530/post/data-visualization/</link>
+      <link>http://localhost:1313/post/data-visualization/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54530/post/data-visualization/</guid>
+      <guid>http://localhost:1313/post/data-visualization/</guid>
       <description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
@@ -343,7 +343,7 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
 
 
 
-&lt;div id=&#34;chart-713429568&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-856174239&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -361,7 +361,7 @@ Add the publication&#39;s **full text** or **supplementary notes** here. You can
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-713429568&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-856174239&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -536,9 +536,9 @@ Crash --&amp;gt; [*]
     
     <item>
       <title>👩🏼‍🏫 Teach academic courses</title>
-      <link>http://localhost:54530/post/teach-courses/</link>
+      <link>http://localhost:1313/post/teach-courses/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54530/post/teach-courses/</guid>
+      <guid>http://localhost:1313/post/teach-courses/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -591,7 +591,7 @@ Crash --&amp;gt; [*]
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://localhost:54530/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -652,17 +652,17 @@ data.head()
     
     <item>
       <title>Experience</title>
-      <link>http://localhost:54530/experience/</link>
+      <link>http://localhost:1313/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54530/experience/</guid>
+      <guid>http://localhost:1313/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learn JavaScript</title>
-      <link>http://localhost:54530/teaching/js/</link>
+      <link>http://localhost:1313/teaching/js/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54530/teaching/js/</guid>
+      <guid>http://localhost:1313/teaching/js/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -709,7 +709,7 @@ data.head()
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://localhost:54530/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -786,9 +786,9 @@ data.head()
     
     <item>
       <title>Learn Python</title>
-      <link>http://localhost:54530/teaching/python/</link>
+      <link>http://localhost:1313/teaching/python/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54530/teaching/python/</guid>
+      <guid>http://localhost:1313/teaching/python/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -835,7 +835,7 @@ data.head()
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://localhost:54530/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -912,9 +912,9 @@ data.head()
     
     <item>
       <title>✅ Manage your projects</title>
-      <link>http://localhost:54530/post/project-management/</link>
+      <link>http://localhost:1313/post/project-management/</link>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54530/post/project-management/</guid>
+      <guid>http://localhost:1313/post/project-management/</guid>
       <description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
 &lt;h2 id=&#34;ideation&#34;&gt;Ideation&lt;/h2&gt;
 &lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
@@ -987,9 +987,9 @@ Parallel 4   :         des6, after des4, 1d
     
     <item>
       <title>Tracking frontiers in atmospheric science</title>
-      <link>http://localhost:54530/event/frontiers/</link>
+      <link>http://localhost:1313/event/frontiers/</link>
       <pubDate>Wed, 23 Aug 2023 16:50:00 +0000</pubDate>
-      <guid>http://localhost:54530/event/frontiers/</guid>
+      <guid>http://localhost:1313/event/frontiers/</guid>
       <description>&lt;!-- 
 
 
@@ -1018,9 +1018,9 @@ Further event details, including [page elements](https://docs.hugoblox.com/refer
     
     <item>
       <title>The global characteristics and mechanisms of diurnal offshore propagation of rainfall</title>
-      <link>http://localhost:54530/event/ams/</link>
+      <link>http://localhost:1313/event/ams/</link>
       <pubDate>Fri, 15 Jan 2021 16:50:00 +0000</pubDate>
-      <guid>http://localhost:54530/event/ams/</guid>
+      <guid>http://localhost:1313/event/ams/</guid>
       <description>&lt;!-- 
 
 

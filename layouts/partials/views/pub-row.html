@@ -14,17 +14,16 @@
 <a class="group cursor-pointer flex flex-col md:flex-row items-start gap-6" href="{{ $link }}" {{ $target | safeHTMLAttr }}>
 
   {{ with $resource }}
-  {{ $image := .Fill (printf "960x540 %s q90" $anchor) }}
-  {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+  {{/* Keep the figure uncropped at its native resolution for maximum sharpness */}}
+  {{ $image := . }}
+  {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp q95" }}{{ end }}
   <div class="w-full flex-none overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800" style="max-width: 300px;">
-    <span class="relative block aspect-video">
-      <img alt="{{ $item.Title | plainify }}"
-           decoding="async"
-           loading="lazy"
-           src="{{ $image.RelPermalink }}"
-           width="{{ $image.Width }}" height="{{ $image.Height }}"
-           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent; object-fit: cover;">
-    </span>
+    <img alt="{{ $item.Title | plainify }}"
+         decoding="async"
+         loading="lazy"
+         src="{{ $image.RelPermalink }}"
+         width="{{ $image.Width }}" height="{{ $image.Height }}"
+         class="w-full" style="height: auto; display: block;">
   </div>
   {{ end }}
 
