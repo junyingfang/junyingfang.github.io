@@ -21,6 +21,15 @@ label[for="nav-toggle"] {
   display: none !important;
 }
 
+/* Publication figures: white canvas with a uniform edge shadow */
+.pub-figure {
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+}
+.dark .pub-figure {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+}
+
 /* Mobile: tighter vertical rhythm around the biography and between sections */
 @media (max-width: 767px) {
   section.hbb-section {
