@@ -14,18 +14,17 @@
 <a class="group cursor-pointer flex flex-col md:flex-row items-start gap-6" href="{{ $link }}" {{ $target | safeHTMLAttr }}>
 
   {{ with $resource }}
-  {{/* Keep the figure uncropped at its native resolution for maximum sharpness.
-       All figures share one fixed canvas (1394x1076): full width, vertical whitespace,
-       slightly more at the bottom, so every card has identical size and shadow. */}}
+  {{/* Equal width, natural height: figures keep their native aspect ratio and
+       resolution (no cropping, no letterboxing) with a uniform edge shadow. */}}
   {{ $image := . }}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp q95" }}{{ end }}
-  <div class="pub-figure w-full flex-none overflow-hidden rounded-md transition-all hover:scale-105" style="max-width: 300px; aspect-ratio: 1394 / 1076;">
+  <div class="pub-figure w-full flex-none overflow-hidden rounded-md transition-all hover:scale-105" style="max-width: 300px;">
     <img alt="{{ $item.Title | plainify }}"
          decoding="async"
          loading="lazy"
          src="{{ $image.RelPermalink }}"
          width="{{ $image.Width }}" height="{{ $image.Height }}"
-         style="width: 100%; height: 100%; object-fit: contain; object-position: 50% 45%; display: block;">
+         style="width: 100%; height: auto; display: block;">
   </div>
   {{ end }}
 
