@@ -1,0 +1,49 @@
+{{/* Custom view: horizontal publication row with the featured image on the left of the text. */}}
+{{ $item := .item }}
+
+{{ $resource := partial "functions/get_featured_image.html" $item }}
+{{ $anchor := $item.Params.image.focal_point | default "Center" }}
+
+{{ $link := $item.Params.external_link | default $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+
+<div class="group cursor-pointer flex flex-col md:flex-row items-start gap-6">
+
+  {{ with $resource }}
+  {{ $image := .Fill (printf "960x540 %s q90" $anchor) }}
+  {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+  <div class="w-full flex-none overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800" style="max-width: 300px;">
+    <a class="relative block aspect-video" href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+      <img alt="{{ $item.Title | plainify }}"
+           decoding="async"
+           loading="lazy"
+           src="{{ $image.RelPermalink }}"
+           width="{{ $image.Width }}" height="{{ $image.Height }}"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent; object-fit: cover;">
+    </a>
+  </div>
+  {{ end }}
+
+  <div class="flex-auto">
+    <h2 class="text-lg font-semibold leading-snug tracking-tight dark:text-white">
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }}><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">
+         {{- $item.Title -}}
+         {{if $target}}{{ partial "functions/get_icon" (dict "name" "arrow-top-right-on-square" "attributes" "style=\"height: 1em;\" class=\"inline-flex h-6 w-6 pl-2\"")  }}{{end}}
+        </span></a>
+    </h2>
+    <p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400">
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+      {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp -}}
+      </a>
+    </p>
+    <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
+      <time class="truncate text-sm" datetime="{{ time.Format "2006-01-02" $item.Date }}">
+      {{- $item.Date | time.Format (site.Params.locale.date_format | default ":date_long") -}}
+      </time>
+    </div>
+  </div>
+</div>

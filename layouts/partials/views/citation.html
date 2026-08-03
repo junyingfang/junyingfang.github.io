@@ -1,0 +1,68 @@
+{{/* Local override of the citation view: show the publication's featured image as a thumbnail on the left of the citation. */}}
+{{ $item := .item }}
+{{ $has_attachments := partial "functions/has_attachments" $item }}
+{{ $resource := partial "functions/get_featured_image.html" $item }}
+{{ $anchor := $item.Params.image.focal_point | default "Center" }}
+
+<div class="pub-list-item view-citation flex items-start gap-4" style="margin-bottom: 1rem">
+
+  {{ with $resource }}
+  {{ $image := .Fill (printf "360x240 %s q90" $anchor) }}
+  {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+  <a class="flex-none overflow-hidden rounded-md bg-gray-100 dark:bg-gray-800" style="width: 120px;" href="{{ $item.RelPermalink }}">
+    <img alt="{{ $item.Title | plainify }}" class="w-full rounded-md"
+         decoding="async" loading="lazy"
+         src="{{ $image.RelPermalink }}"
+         width="{{ $image.Width }}" height="{{ $image.Height }}"
+         style="object-fit: cover; aspect-ratio: 3 / 2;">
+  </a>
+  {{ else }}
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+  {{ end }}
+
+  <div class="flex-auto">
+
+  {{/* APA Style */}}
+  {{ if eq (site.Params.publications.citation_style | default "apa") "apa" }}
+
+  <span class="article-metadata li-cite-author">
+    {{ partial "page_metadata_authors" $item }}
+  </span>
+  ({{- $item.Date.Format "2006" -}}).
+  <a href="{{ $item.RelPermalink }}" class="underline">{{ $item.Title }}</a>.
+  {{ if $item.Params.publication_short }}
+    {{- $item.Params.publication_short | markdownify -}}.
+  {{ else if $item.Params.publication }}
+    {{- $item.Params.publication | markdownify -}}.
+  {{ end }}
+
+  {{ if $has_attachments }}
+  <div class="flex space-x-3">
+    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+  </div>
+  {{ end }}
+
+  {{/* MLA Style */}}
+  {{ else }}
+
+  <span class="article-metadata li-cite-author">
+    {{ partial "page_metadata_authors" $item }}.
+  </span>
+  <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>.
+  {{ if $item.Params.publication_short }}
+    {{- $item.Params.publication_short | markdownify -}},
+  {{ else if $item.Params.publication }}
+    {{- $item.Params.publication | markdownify -}},
+  {{ end }}
+  {{- $item.Date.Format "2006" -}}.
+
+  {{ if $has_attachments }}
+  <div class="flex space-x-3">
+    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+  </div>
+  {{ end }}
+
+  {{ end }}
+
+  </div>
+</div>

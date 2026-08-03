@@ -3,7 +3,7 @@
 title: Junying Fang
 
 # Name pronunciation (optional)
-name_pronunciation: 
+name_pronunciation: （方俊颖）
 
 # Full name (for SEO)
 first_name: Junying
@@ -23,14 +23,12 @@ highlight_name: true
 role: Assistant Research Scientist
 
 # Organizations/Affiliations to display in Biography blox
-organizations:
-  - name: ITMM
-    url: 
+organizations: []
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
+  - icon: envelope
     url: 'mailto:junyingfang1@gmail.com'
     label: E-mail Me
 #  - icon: brands/x
@@ -39,36 +37,9 @@ profiles:
 #    url: https://www.linkedin.com/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=rjLUuboAAAAJ&hl=en&oi=ao
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-8491-6678
   # - icon: brands/github
   #   url: https://github.com/junyingfang
 
-interests:
-  - Weather and climate
-  - AI for science
-  - Complex system
-
-education:
-  - area: PhD Meteorology
-    institution: Sun Yat-sen University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-  # - area: MEng Artificial Intelligence
-  #   institution: Massachusetts Institute of Technology
-  #   date_start: 2016-01-01
-  #   date_end: 2020-12-31
-  #   summary: |
-  #     GPA: 3.8/4.0
-
-  #     Courses included:
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: B.S. Atmospheric Sciences
-    institution: Nanjing University of Information Science & Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
 work: []
 
 # Skills
@@ -120,6 +91,6 @@ languages:
 awards: []
 ---
 
-## About Me
+I received my Ph.D. in Meteorology from Sun Yat-sen University in 2023, advised by Prof. Yu Du. I am currently an Assistant Research Scientist at the Guangzhou Institute of Tropical and Marine Meteorology, China Meteorological Administration. My core research focuses on the mechanisms of global coastal rainfall propagation, and my exploratory research focuses on LLM Agent-based autonomous scientific discovery in meteorology.
 
-Junying Fang is a researcher at the Institute of Tropical and Marine Meteorology, CMA.
+I'm always open to discussions, especially on autonomous scientific discovery, whether exchanging ideas or exploring potential collaborations. Feel free to reach out via email!
