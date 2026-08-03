@@ -14,17 +14,19 @@
 <a class="group cursor-pointer flex flex-col md:flex-row items-start gap-6" href="{{ $link }}" {{ $target | safeHTMLAttr }}>
 
   {{ with $resource }}
-  {{/* Equal width, natural height: figures keep their native aspect ratio and
-       resolution (no cropping, no letterboxing) with a uniform edge shadow. */}}
+  {{/* Equal width, natural height by default; a publication can pin its card to a
+       fixed aspect ratio via `figure_aspect` (content full-width, white padding
+       above/below, slightly more at the bottom). Native resolution, no cropping. */}}
   {{ $image := . }}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp q95" }}{{ end }}
-  <div class="pub-figure w-full flex-none overflow-hidden rounded-md transition-all hover:scale-105" style="max-width: 300px;">
+  {{ $aspect := $item.Params.figure_aspect }}
+  <div class="pub-figure w-full flex-none overflow-hidden rounded-md transition-all hover:scale-105" style="max-width: 300px;{{ with $aspect }} aspect-ratio: {{ . }};{{ end }}">
     <img alt="{{ $item.Title | plainify }}"
          decoding="async"
          loading="lazy"
          src="{{ $image.RelPermalink }}"
          width="{{ $image.Width }}" height="{{ $image.Height }}"
-         style="width: 100%; height: auto; display: block;">
+         style="width: 100%; {{ if $aspect }}height: 100%; object-fit: contain; object-position: 50% 45%;{{ else }}height: auto;{{ end }} display: block;">
   </div>
   {{ end }}
 
