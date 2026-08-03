@@ -1,5 +1,5 @@
 {{/* Custom view: horizontal publication row with the featured image on the left of the text.
-     Shows the author list and journal name instead of the summary. */}}
+     The whole row is one link — clicking anywhere (image, title, authors, journal, note) opens the article. */}}
 {{ $item := .item }}
 
 {{ $resource := partial "functions/get_featured_image.html" $item }}
@@ -11,30 +11,30 @@
   {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
 
-<div class="group cursor-pointer flex flex-col md:flex-row items-start gap-6">
+<a class="group cursor-pointer flex flex-col md:flex-row items-start gap-6" href="{{ $link }}" {{ $target | safeHTMLAttr }}>
 
   {{ with $resource }}
   {{ $image := .Fill (printf "960x540 %s q90" $anchor) }}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
   <div class="w-full flex-none overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800" style="max-width: 300px;">
-    <a class="relative block aspect-video" href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+    <span class="relative block aspect-video">
       <img alt="{{ $item.Title | plainify }}"
            decoding="async"
            loading="lazy"
            src="{{ $image.RelPermalink }}"
            width="{{ $image.Width }}" height="{{ $image.Height }}"
            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent; object-fit: cover;">
-    </a>
+    </span>
   </div>
   {{ end }}
 
   <div class="flex-auto">
     <h2 class="text-lg font-semibold leading-snug tracking-tight dark:text-white">
-      <a href="{{ $link }}" {{ $target | safeHTMLAttr }}><span
+      <span
         class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">
          {{- $item.Title -}}
          {{if $target}}{{ partial "functions/get_icon" (dict "name" "arrow-top-right-on-square" "attributes" "style=\"height: 1em;\" class=\"inline-flex h-6 w-6 pl-2\"")  }}{{end}}
-        </span></a>
+        </span>
     </h2>
     <p class="mt-2 text-sm text-gray-600 dark:text-gray-300">
       {{ partial "page_metadata_authors" $item }}
@@ -63,4 +63,4 @@
     </p>
     {{ end }}
   </div>
-</div>
+</a>
