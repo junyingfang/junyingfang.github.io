@@ -2,24 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/complex-system/</loc>
-    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/project/</loc>
-    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/project/gaia-earth/</loc>
-    <lastmod>2024-07-10T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/ai-for-science/</loc>
+    <lastmod>2025-12-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/publication_types/article/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/publication/ddms/</loc>
+    <lastmod>2025-12-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/publication_types/</loc>
+    <lastmod>2025-12-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/publication/</loc>
+    <lastmod>2025-12-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-12-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/publication/fr2wr/</loc>
@@ -28,38 +32,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/extreme-weather/</loc>
     <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/publication_types/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/publication/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/ai-for-science/</loc>
-    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/project/ai-meteorologist/</loc>
-    <lastmod>2024-06-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/projects/</loc>
-    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/publication/ddms/</loc>
-    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/project/atmosllm/</loc>
-    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/foundation-model/</loc>
-    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>http://localhost:1313/post/get-started/</loc>

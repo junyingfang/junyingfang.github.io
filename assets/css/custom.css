@@ -1,0 +1,17 @@
+/* Tighter line spacing for the Awards / Teaching / Service markdown blocks */
+.markdown-block-text {
+  line-height: 1.55;
+}
+.markdown-block-text ul,
+.markdown-block-text ol {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+.markdown-block-text li {
+  margin-top: 0.15em;
+  margin-bottom: 0.15em;
+}
+.markdown-block-text p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}

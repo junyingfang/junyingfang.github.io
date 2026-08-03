@@ -43,13 +43,16 @@ tags:
 # Display this page in the Featured widget?
 featured: true
 
+# Highlight note shown under this publication in the Featured Publications list
+highlight_note: 'Featured in PNAS “In This Issue” highlights & discussed on the PNAS Science Sessions podcast'
+
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
 url_pdf: ''
-url_code: 'https://github.com/bigfeetsmalltone/DDMS'
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''

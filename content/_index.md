@@ -18,10 +18,6 @@ sections:
       button:
         text: Download CV
         url: uploads/JunyingFang_CV_2026Aug.pdf
-    design:
-      css_class: black #white black
-      background:
-        color: white #white black
   - block: collection
     id: papers
     content:
