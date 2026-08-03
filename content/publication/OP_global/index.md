@@ -24,6 +24,9 @@ external_link: https://doi.org/10.1038/s41467-022-34842-0
 # Pin the figure card to the same aspect ratio as the DDMS figure (1394x860)
 figure_aspect: '1394 / 860'
 
+# Highlight note shown under this publication in the Publications list
+highlight_note: 'Oral presentation award at the 101st Annual Meeting of American Meteorological Society'
+
 abstract: Diurnal rainfall offshore propagation (OP) shapes the timing and intensity of coastal rainfall and thus impacts both nature and society. Previous OP studies have rarely compared various coasts, and a consensus regarding physical mechanisms has not been reached on a global scale. Here, we provide the global climatology of observed OP, which propagates across ~78% of all coasts and accounts for ~59% of the coastal precipitation. Generally, OP is facilitated by low latitudes, high moisture conditions and offshore background winds. OP at low latitudes in a high-moisture environment is mainly caused by inertia–gravity waves due to the land–sea thermal contrast, whereas OP at higher latitudes is significantly influenced by background winds under trapped land–sea breeze circulation conditions. Slower near-shore OP might be modulated by density currents. Our results provide a guide for global OP hotspots and suggest relative contributions of mechanisms from a statistical perspective.
 
 # Summary. An optional shortened abstract.
