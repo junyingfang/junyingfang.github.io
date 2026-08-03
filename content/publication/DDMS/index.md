@@ -43,6 +43,12 @@ tags:
 # Display this page in the Featured widget?
 featured: true
 
+# Order in the Publications list (lower comes first)
+weight: 20
+
+# Square journal logo shown before the journal name (file in `assets/media/journals/`)
+journal_icon: pnas.png
+
 # Highlight note shown under this publication in the Featured Publications list
 highlight_note: 'Featured in PNAS “In This Issue” highlights & discussed on the PNAS Science Sessions podcast'
 

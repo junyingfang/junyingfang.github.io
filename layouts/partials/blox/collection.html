@@ -83,9 +83,9 @@
 {{ $columns := $block.design.columns | default "2" }}
 
 {{ if $block.content.title }}
-<div class="flex flex-col items-center max-w-prose mx-auto gap-3 justify-center">
+<div class="mx-auto w-full px-6" style="max-width: 56rem;">
 
-  <div class="mb-6 text-2xl font-bold text-gray-900 dark:text-white">
+  <div class="mb-2 text-2xl font-bold text-gray-900 dark:text-white text-left">
     {{ $block.content.title | emojify | $page.RenderString }}
   </div>
 

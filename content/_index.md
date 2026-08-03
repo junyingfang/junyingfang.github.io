@@ -21,24 +21,17 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: Publications
+      sort_by: weight
+      sort_ascending: true
       filters:
         folders:
           - publication
         featured_only: true
     design:
       view: pub-row
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
   - block: markdown
+    id: awards
     content:
       title: Awards
       subtitle: ''
@@ -50,6 +43,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
+    id: teaching
     content:
       title: Teaching
       subtitle: ''
@@ -60,6 +54,7 @@ sections:
     design:
       columns: '1'
   - block: markdown
+    id: service
     content:
       title: Service
       subtitle: ''

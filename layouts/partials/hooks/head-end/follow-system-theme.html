@@ -1,0 +1,14 @@
+<script>
+  // Always follow the operating system's light/dark preference on every device.
+  // Clears any manual choice previously saved by the theme toggle so the OS setting always wins.
+  (function () {
+    try { localStorage.removeItem("wc-color-theme"); } catch (e) {}
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      document.documentElement.classList.add("dark");
+      document.documentElement.style.colorScheme = "dark";
+    } else {
+      document.documentElement.classList.remove("dark");
+      document.documentElement.style.colorScheme = "light";
+    }
+  })();
+</script>

@@ -32,6 +32,12 @@ tags:
 - Extreme weather
 featured: true
 
+# Order in the Publications list (lower comes first)
+weight: 30
+
+# Square journal logo shown before the journal name (file in `assets/media/journals/`)
+journal_icon: agu.png
+
 # links:
 # - name: ""
 #   url: ""

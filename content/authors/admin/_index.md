@@ -36,7 +36,7 @@ profiles:
 #  - icon: brands/linkedin
 #    url: https://www.linkedin.com/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=rjLUuboAAAAJ&hl=en&oi=ao
+    url: https://scholar.google.com/citations?user=rjLUuboAAAAJ
   # - icon: brands/github
   #   url: https://github.com/junyingfang
 
@@ -91,6 +91,6 @@ languages:
 awards: []
 ---
 
-I received my Ph.D. in Meteorology from Sun Yat-sen University in 2023, advised by Prof. Yu Du. I am currently an Assistant Research Scientist at the Guangzhou Institute of Tropical and Marine Meteorology, China Meteorological Administration. My core research focuses on the mechanisms of global coastal rainfall propagation, and my exploratory research focuses on LLM Agent-based autonomous scientific discovery in meteorology.
+I received my Ph.D. in Meteorology from Sun Yat-sen University in 2023, advised by Prof. Yu Du. I am currently an assistant research scientist at the Guangzhou Institute of Tropical and Marine Meteorology, China Meteorological Administration. My core research focuses on the mechanisms of global coastal rainfall propagation, and my exploratory research focuses on LLM Agent-based autonomous scientific discovery in meteorology.
 
 I'm always open to discussions, especially on autonomous scientific discovery, whether exchanging ideas or exploring potential collaborations. Feel free to reach out via email!

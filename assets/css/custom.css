@@ -15,3 +15,16 @@
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
+
+/* Mobile: tighter vertical rhythm around the biography and between sections */
+@media (max-width: 767px) {
+  section.hbb-section {
+    padding: 1.25rem 0 !important;
+  }
+  .resume-biography {
+    gap: 1.5rem !important;
+  }
+  .avatar-wrapper {
+    margin-top: 0.5rem !important;
+  }
+}

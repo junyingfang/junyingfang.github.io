@@ -27,6 +27,12 @@ tags:
 - Earth science
 featured: true
 
+# Order in the Publications list (lower comes first)
+weight: 10
+
+# Square journal logo shown before the journal name (file in `assets/media/journals/`)
+journal_icon: nature.png
+
 # links:
 # - name: ""
 #   url: ""

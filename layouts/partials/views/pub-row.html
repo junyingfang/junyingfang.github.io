@@ -41,10 +41,20 @@
     </p>
     <div class="mt-1 flex items-center space-x-3 text-sm text-gray-500 dark:text-gray-400">
       {{ $journal := $item.Params.publication_short | default $item.Params.publication }}
-      {{ with $journal }}<em>{{ . | markdownify }}</em><span>&middot;</span>{{ end }}
-      <time class="truncate" datetime="{{ time.Format "2006-01-02" $item.Date }}">
-      {{- $item.Date | time.Format (site.Params.locale.date_format | default ":date_long") -}}
-      </time>
+      {{ with $journal }}
+      <span class="inline-flex items-center">
+        {{ with $item.Params.journal_icon }}
+          {{ with resources.Get (path.Join "media" "journals" .) }}
+          <img src="{{ .RelPermalink }}" alt="" loading="lazy"
+               width="{{ .Width }}" height="{{ .Height }}"
+               class="inline-block" style="width: 1.1em; height: 1.1em; object-fit: contain; margin-right: 0.45em;">
+          {{ end }}
+        {{ end }}
+        <em>{{ . | markdownify }}</em>
+      </span>
+      <span>&middot;</span>
+      {{ end }}
+      <time datetime="{{ time.Format "2006-01-02" $item.Date }}">{{ $item.Date.Format "2006" }}</time>
     </div>
     {{ with $item.Params.highlight_note }}
     <p class="mt-2 text-sm font-medium text-primary-700 dark:text-primary-300">
