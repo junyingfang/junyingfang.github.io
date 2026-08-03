@@ -66,7 +66,7 @@
 
   
     
-    <link href="/css/custom.min.0c09555d62de12f1087ca275951c69ed088764f8bcfd7e83e9cc6c6c6e364325.css" rel="stylesheet" />
+    <link href="/css/custom.min.6d656958fe8264027a63a2ddb7e97027f2f07b19949b4f67b1176c7684a86868.css" rel="stylesheet" />
   
 
   <script>
@@ -262,6 +262,7 @@
   
   
   
+  
     
       
       
@@ -316,31 +317,6 @@
         
         
       
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-  
-  
-  
-  
-  
-  
     
       
       
@@ -384,6 +360,12 @@
         
         
       
+    
+  
+  
+  
+  
+  
     
       
       
@@ -578,6 +560,26 @@
   
     
       
+      <script>
+  
+  
+  (function () {
+    try { localStorage.removeItem("wc-color-theme"); } catch (e) {}
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      document.documentElement.classList.add("dark");
+      document.documentElement.style.colorScheme = "dark";
+    } else {
+      document.documentElement.classList.remove("dark");
+      document.documentElement.style.colorScheme = "light";
+    }
+  })();
+</script>
+
+      
+    
+  
+    
+      
       <script async defer src="https://buttons.github.io/buttons.js"></script>
 
       
@@ -705,6 +707,30 @@
       
 
       
+      
+      <div class="px-3 text-black hover:text-primary-700 dark:text-white dark:hover:text-primary-300
+            [&.active]:font-bold [&.active]:text-black/90 dark:[&.active]:text-white">
+        <button class="theme-toggle mt-1" accesskey="t" title="appearance">
+          <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class="dark:hidden">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+               stroke-linejoin="round" class=" dark:block [&:not(dark)]:hidden">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+      </div>
       
 
       
