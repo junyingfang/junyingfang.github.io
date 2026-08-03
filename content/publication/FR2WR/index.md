@@ -22,6 +22,9 @@ publication_types: ["Article"]
 publication: "Geophysical Research Letters"
 publication_short: ""
 
+# Clicking this publication jumps straight to the article page
+external_link: https://doi.org/10.1029/2024GL110430
+
 abstract: Forecasting warm-sector rainfall (WR) remains a major challenge, primarily due to weak synoptic forcing. Through cloud-permitting numerical simulations, in addition to direct triggering mechanism from low-level jets, we identified the important role of gravity waves in a heavy WR event in South China via convective preconditioning. The preconditioning manifests as mid-level moistening and destabilization with wave-like variations. This process is driven by fast-propagating (~24 m s-1) n=2 waves, associated with lower-tropospheric ascents and upper-tropospheric descents. Waves are generated during the evolution of northern frontal rainfall (FR). As FR intensifies, surges in low-level diabatic cooling mainly resulting from microphysical processes, trigger n=2 waves, which further precondition the environment along their path. In contrast, a sensitivity experiment involving stably developing FR fails to reproduce the preconditioning process by waves and the subsequent occurrence of WR. Overall, our study illuminates a new pathway through which FR significantly influences WR via gravity waves.
 
 # Summary. An optional shortened abstract.

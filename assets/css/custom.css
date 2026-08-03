@@ -26,6 +26,9 @@ label[for="nav-toggle"] {
   section.hbb-section {
     padding: 1rem 0 !important;
   }
+  section#section-resume-biography-3 {
+    padding: 0.5rem 0 !important;
+  }
   .resume-biography {
     gap: 1.5rem !important;
   }

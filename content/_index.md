@@ -18,6 +18,10 @@ sections:
       button:
         text: Download CV
         url: uploads/JunyingFang_CV_2026Aug.pdf
+    design:
+      spacing:
+        # Half of the default 1.5rem section spacing
+        padding: ["0.75rem", "0", "0.75rem", "0"]
   - block: collection
     id: papers
     content:
