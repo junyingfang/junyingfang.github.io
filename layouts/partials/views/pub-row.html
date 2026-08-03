@@ -20,7 +20,7 @@
   {{ $image := . }}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp q95" }}{{ end }}
   {{ $aspect := $item.Params.figure_aspect }}
-  <div class="pub-figure w-full flex-none overflow-hidden rounded-md transition-all hover:scale-105" style="max-width: 300px;{{ with $aspect }} aspect-ratio: {{ . }};{{ end }}">
+  <div class="pub-figure w-full flex-none overflow-hidden rounded-md transition-all hover:scale-105" style="max-width: 300px;{{ with $aspect }} aspect-ratio: {{ . | safeCSS }};{{ end }}">
     <img alt="{{ $item.Title | plainify }}"
          decoding="async"
          loading="lazy"
