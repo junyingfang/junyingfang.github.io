@@ -16,15 +16,17 @@
   margin-bottom: 0.5em;
 }
 
+/* Hide the mobile hamburger menu button (the nav menu is intentionally empty) */
+label[for="nav-toggle"] {
+  display: none !important;
+}
+
 /* Mobile: tighter vertical rhythm around the biography and between sections */
 @media (max-width: 767px) {
   section.hbb-section {
-    padding: 1.25rem 0 !important;
+    padding: 1rem 0 !important;
   }
   .resume-biography {
     gap: 1.5rem !important;
-  }
-  .avatar-wrapper {
-    margin-top: 0.5rem !important;
   }
 }
