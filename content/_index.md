@@ -16,7 +16,7 @@ sections:
       text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download CV
+        text: CV
         url: uploads/JunyingFang_CV_2026Aug.pdf
     design:
       spacing:
@@ -52,9 +52,9 @@ sections:
       title: Teaching
       subtitle: ''
       text: |-
-        - Aug. 2020 – Jan. 2021: Teaching assistant for **Synoptic Meteorology**, Sun Yat-sen University
-        - Feb. 2021 – Jul. 2021: Teaching assistant for **Climate Change**, Sun Yat-sen University
-        - Aug. 2021 – Jan. 2022: Teaching assistant for **Climate Impacts, Adaptation and Mitigation**, Sun Yat-sen University
+        - Aug. 2020 – Jan. 2021: Teaching assistant for Synoptic Meteorology, Sun Yat-sen University
+        - Feb. 2021 – Jul. 2021: Teaching assistant for Climate Change, Sun Yat-sen University
+        - Aug. 2021 – Jan. 2022: Teaching assistant for Climate Impacts, Adaptation and Mitigation, Sun Yat-sen University
     design:
       columns: '1'
   - block: markdown
@@ -65,13 +65,13 @@ sections:
       text: |-
         **Journal Review:**
 
-        - Geophysical Research Letters (GRL)
-        - Journal of the Atmospheric Sciences (JAS)
-        - Journal of Geophysical Research: Atmospheres (JGR-A)
-        - International Journal of Climatology (IJC)
-        - Earth and Space Science (ESS)
-        - Journal of Meteorological Research (JMR)
-        - Ocean-Land-Atmosphere Research (OLAR)
+        - Geophysical Research Letters
+        - Journal of the Atmospheric Sciences
+        - Journal of Geophysical Research: Atmospheres
+        - International Journal of Climatology
+        - Ocean-Land-Atmosphere Research
+        - Journal of Meteorological Research
+        - Earth and Space Science
 
         **Journal Editorial Intern:**
 

@@ -91,6 +91,6 @@ languages:
 awards: []
 ---
 
-I received my Ph.D. in Meteorology from Sun Yat-sen University in 2023, advised by Prof. Yu Du. I am currently an assistant research scientist at the Guangzhou Institute of Tropical and Marine Meteorology, China Meteorological Administration. My core research focuses on the mechanisms of global coastal rainfall propagation, and my exploratory research focuses on LLM Agent-based autonomous scientific discovery in meteorology.
+I received my Ph.D. in Meteorology from Sun Yat-sen University in 2023, advised by Prof. Yu Du. I am currently an assistant research scientist at the Guangzhou Institute of Tropical and Marine Meteorology, China Meteorological Administration. My primary interest lies in the mechanisms of complex atmospheric phenomena. Specifically, my core research focuses on the mechanisms of global coastal rainfall propagation, and my exploratory research focuses on LLM Agent-based autonomous scientific discovery in meteorology.
 
 I'm always open to discussions, especially on autonomous scientific discovery, whether exchanging ideas or exploring potential collaborations. Feel free to reach out via email!

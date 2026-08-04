@@ -35,13 +35,12 @@
       <span
         class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">
          {{- $item.Title -}}
-         {{if $target}}{{ partial "functions/get_icon" (dict "name" "arrow-top-right-on-square" "attributes" "style=\"height: 1em;\" class=\"inline-flex h-6 w-6 pl-2\"")  }}{{end}}
         </span>
     </h2>
     <p class="mt-2 text-sm text-gray-600 dark:text-gray-300">
       {{ partial "page_metadata_authors" $item }}
     </p>
-    <div class="mt-1 flex items-center space-x-3 text-sm text-gray-500 dark:text-gray-400">
+    <div class="mt-1 flex items-center text-sm text-gray-500 dark:text-gray-400" style="gap: 0.35rem;">
       {{ $journal := $item.Params.publication_short | default $item.Params.publication }}
       {{ with $journal }}
       <span class="inline-flex items-center">
@@ -60,7 +59,7 @@
     </div>
     {{ with $item.Params.highlight_note }}
     <p class="mt-2 text-sm font-medium text-primary-700 dark:text-primary-300">
-      {{ partial "functions/get_icon" (dict "name" "star" "attributes" "style=\"height: 1em; vertical-align: 0.05em;\" class=\"inline-block\"") }}
+      {{ partial "functions/get_icon" (dict "name" "star" "attributes" "style=\"height: 1em; vertical-align: 0.02em;\" class=\"inline-block\"") }}
       {{ . }}
     </p>
     {{ end }}
