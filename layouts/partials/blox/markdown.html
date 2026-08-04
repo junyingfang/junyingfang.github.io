@@ -1,0 +1,18 @@
+{{/* Hugo Blox: Markdown */}}
+{{/* Local override: wider content area, base prose size (matches the biography text), smaller title, tighter spacing. */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $title := $block.content.title | emojify | $page.RenderString }}
+{{ $text := $block.content.text | emojify | $page.RenderString | safeHTML }}
+
+<div class="flex flex-col items-start mx-auto gap-2 justify-center w-full px-6" style="max-width: 56rem;">
+
+  <div class="text-2xl font-bold text-gray-900 dark:text-white text-left">
+    {{ $title }}
+  </div>
+
+  {{/* We use DIV rather than P to support `prose` class and multiple paragraphs */}}
+  {{ with $text }}<div class="markdown-block-text prose prose-slate dark:prose-invert max-w-none w-full">{{ . }}</div>{{ end }}
+</div>

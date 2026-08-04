@@ -1,0 +1,67 @@
+{{/* Custom view: horizontal publication row with the featured image on the left of the text.
+     The whole row is one link — clicking anywhere (image, title, authors, journal, note) opens the article. */}}
+{{ $item := .item }}
+
+{{ $resource := partial "functions/get_featured_image.html" $item }}
+{{ $anchor := $item.Params.image.focal_point | default "Center" }}
+
+{{ $link := $item.Params.external_link | default $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+
+<a class="group cursor-pointer flex flex-col md:flex-row items-start gap-6" href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+
+  {{ with $resource }}
+  {{/* Equal width, natural height by default; a publication can pin its card to a
+       fixed aspect ratio via `figure_aspect` (content full-width, white padding
+       above/below, slightly more at the bottom). Native resolution, no cropping. */}}
+  {{ $image := . }}
+  {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp q95" }}{{ end }}
+  {{ $aspect := $item.Params.figure_aspect }}
+  <div class="pub-figure w-full flex-none overflow-hidden rounded-md transition-all hover:scale-105" style="max-width: 300px;{{ with $aspect }} aspect-ratio: {{ . | safeCSS }};{{ end }}">
+    <img alt="{{ $item.Title | plainify }}"
+         decoding="async"
+         loading="lazy"
+         src="{{ $image.RelPermalink }}"
+         width="{{ $image.Width }}" height="{{ $image.Height }}"
+         style="width: 100%; {{ if $aspect }}height: 100%; object-fit: contain; object-position: 50% 45%;{{ else }}height: auto;{{ end }} display: block;">
+  </div>
+  {{ end }}
+
+  <div class="flex-auto">
+    <h2 class="text-lg font-semibold leading-snug tracking-tight dark:text-white">
+      <span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">
+         {{- $item.Title -}}
+        </span>
+    </h2>
+    <p class="mt-2 text-sm text-gray-600 dark:text-gray-300">
+      {{ partial "page_metadata_authors" $item }}
+    </p>
+    <div class="mt-1 flex items-center text-sm text-gray-500 dark:text-gray-400" style="gap: 0.35rem;">
+      {{ $journal := $item.Params.publication_short | default $item.Params.publication }}
+      {{ with $journal }}
+      <span class="inline-flex items-center">
+        {{ with $item.Params.journal_icon }}
+          {{ with resources.Get (path.Join "media" "journals" .) }}
+          <img src="{{ .RelPermalink }}" alt="" loading="lazy"
+               width="{{ .Width }}" height="{{ .Height }}"
+               class="inline-block" style="width: 1.1em; height: 1.1em; object-fit: contain; margin-right: 0.45em;">
+          {{ end }}
+        {{ end }}
+        <em>{{ . | markdownify }}</em>
+      </span>
+      <span>&middot;</span>
+      {{ end }}
+      <time datetime="{{ time.Format "2006-01-02" $item.Date }}">{{ $item.Date.Format "2006" }}</time>
+    </div>
+    {{ with $item.Params.highlight_note }}
+    <p class="mt-2 text-sm font-medium text-primary-700 dark:text-primary-300">
+      {{ partial "functions/get_icon" (dict "name" "star" "attributes" "style=\"height: 1em; vertical-align: 0.02em;\" class=\"inline-block\"") }}
+      {{ . }}
+    </p>
+    {{ end }}
+  </div>
+</a>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Extreme Weather | Junying Fang</title>
-    <link>http://localhost:1313/tags/extreme-weather/</link>
-      <atom:link href="http://localhost:1313/tags/extreme-weather/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://junyingfang.com/tags/extreme-weather/</link>
+      <atom:link href="https://junyingfang.com/tags/extreme-weather/index.xml" rel="self" type="application/rss+xml" />
     <description>Extreme Weather</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu0587abf81a1c8ffcefc8b63c1e9cd3eb_129373_512x512_fill_lanczos_center_3.png</url>
+      <url>https://junyingfang.com/media/icon_hu0587abf81a1c8ffcefc8b63c1e9cd3eb_129373_512x512_fill_lanczos_center_3.png</url>
       <title>Extreme Weather</title>
-      <link>http://localhost:1313/tags/extreme-weather/</link>
+      <link>https://junyingfang.com/tags/extreme-weather/</link>
     </image>
     
     <item>
       <title>Could developing frontal rainfall influence warm-sector rainfall?</title>
-      <link>http://localhost:1313/publication/fr2wr/</link>
+      <link>https://junyingfang.com/publication/fr2wr/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/fr2wr/</guid>
+      <guid>https://junyingfang.com/publication/fr2wr/</guid>
       <description>&lt;!-- 
 
 

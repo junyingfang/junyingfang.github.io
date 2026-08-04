@@ -10,8 +10,10 @@ authors:
   - admin
   - Yunming Ye
   - Demin Yu
+  - Hui Su
   - Di Xian
   - Danyu Qin
+  - Jingsong Wang
 
 
 # Author notes (optional)
@@ -32,6 +34,9 @@ publication_types: ['Article']
 publication: PNAS
 publication_short: 
 
+# Clicking this publication jumps straight to the article page
+external_link: https://doi.org/10.1073/pnas.2517520122
+
 abstract: Convection (thunderstorm) develops rapidly within hours and is highly destructive, posing a significant challenge for nowcasting and resulting in substantial losses to nature and society. After the emergence of artificial intelligence (AI)-based methods, convection nowcasting has experienced rapid advancements, with its performance surpassing that of physics-based numerical weather prediction and other conventional approaches. However, the lead time and coverage of it still leave much to be desired and hardly meet the needs of disaster emergency response. Here, we propose deep diffusion models of satellite (DDMS) to establish an AI-based convection nowcasting system. On one hand, it employs diffusion processes to effectively simulate complicated spatiotemporal evolution patterns of convective clouds, significantly improving the forecast lead time. On the other hand, it utilizes geostationary satellite brightness temperature data, thereby achieving planetary-scale forecast coverage. During long-term tests and objective validation based on the FengYun-4A satellite, our system achieves, for the first time, effective convection nowcasting up to 4 hours, with broad coverage (about 20,000,000 km2), remarkable accuracy, and high resolution (15 minutes; 4 km). Its performance reaches a new height in convection nowcasting compared to the existing models. In terms of application, our system operates efficiently (forecasting 4 hours of convection in 8 minutes), and is highly transferable with the potential to collaborate with multiple satellites for global convection nowcasting. Furthermore, our results highlight the remarkable capabilities of diffusion models in convective clouds forecasting, as well as the significant value of geostationary satellite data when empowered by AI technologies.  
 
 # Summary. An optional shortened abstract.
@@ -43,13 +48,22 @@ tags:
 # Display this page in the Featured widget?
 featured: true
 
+# Order in the Publications list (lower comes first)
+weight: 20
+
+# Square journal logo shown before the journal name (file in `assets/media/journals/`)
+journal_icon: pnas.png
+
+# Highlight note shown under this publication in the Featured Publications list
+highlight_note: 'Featured in PNAS “In This Issue” highlights & discussed on the PNAS Science Sessions podcast'
+
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
 url_pdf: ''
-url_code: 'https://github.com/bigfeetsmalltone/DDMS'
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -60,7 +74,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: ChatGPT'
+  caption: ''
   focal_point: ''
   preview_only: false
 

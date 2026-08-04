@@ -2,43 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI for Science | Junying Fang</title>
-    <link>http://localhost:1313/tags/ai-for-science/</link>
-      <atom:link href="http://localhost:1313/tags/ai-for-science/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://junyingfang.com/tags/ai-for-science/</link>
+      <atom:link href="https://junyingfang.com/tags/ai-for-science/index.xml" rel="self" type="application/rss+xml" />
     <description>AI for Science</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 16 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu0587abf81a1c8ffcefc8b63c1e9cd3eb_129373_512x512_fill_lanczos_center_3.png</url>
+      <url>https://junyingfang.com/media/icon_hu0587abf81a1c8ffcefc8b63c1e9cd3eb_129373_512x512_fill_lanczos_center_3.png</url>
       <title>AI for Science</title>
-      <link>http://localhost:1313/tags/ai-for-science/</link>
+      <link>https://junyingfang.com/tags/ai-for-science/</link>
     </image>
     
     <item>
-      <title>AI Meteorologist</title>
-      <link>http://localhost:1313/project/ai-meteorologist/</link>
-      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/ai-meteorologist/</guid>
-      <description>&lt;p&gt;Automated AI for meteorology discovery, design and modeling.&lt;/p&gt;
-&lt;p&gt;Multi-discipline involved: AI, meteorology, science of science.&lt;/p&gt;
-&lt;h3 id=&#34;paradigms-of-meteorology-research&#34;&gt;Paradigms of meteorology research.&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Extract with AtmosCorpus and AtmosLLM.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;human-meteorologist-modeling&#34;&gt;Human Meteorologist modeling.&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Use AtmosCorpus and AtmosLLM.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;rediscovery-of-meteorology&#34;&gt;Rediscovery of meteorology.&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Start from typical theories and equation.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;discovery-of-new-meteorology&#34;&gt;Discovery of new meteorology.&lt;/h3&gt;</description>
-    </item>
-    
-    <item>
-      <title>Four-hour thunderstorm nowcasting using deep diffusion models of satellite</title>
-      <link>http://localhost:1313/publication/ddms/</link>
-      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/ddms/</guid>
+      <title>Four-hour thunderstorm nowcasting using a deep diffusion model for satellite data</title>
+      <link>https://junyingfang.com/publication/ddms/</link>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://junyingfang.com/publication/ddms/</guid>
       <description>&lt;!-- 
 
 
