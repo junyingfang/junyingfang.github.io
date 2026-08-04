@@ -63,9 +63,8 @@ sections:
       title: Service
       subtitle: ''
       text: |-
-        **Journal Review:** Geophysical Research Letters, Journal of the Atmospheric Sciences, Journal of Geophysical Research: Atmospheres, International Journal of Climatology, Ocean-Land-Atmosphere Research, Journal of Meteorological Research, Earth and Space Science
-
-        **Journal Editorial Intern:** The Innovation
+        - Journal Review: Geophysical Research Letters, Journal of the Atmospheric Sciences, Journal of Geophysical Research: Atmospheres, International Journal of Climatology, Ocean-Land-Atmosphere Research, Journal of Meteorological Research, Earth and Space Science
+        - Journal Editorial Intern: The Innovation
     design:
       columns: '1'
 ---
